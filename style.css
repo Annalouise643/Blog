@@ -2,19 +2,23 @@ body {
   font-family: "Shippori Mincho B1", serif;
   /* preferably  ParaType-Revival - 400, but you have to pay to download this*/
   font-size: smaller;
-  margin: 8px 200px;
 }
 h1 {
   font-weight: normal;
   text-align: center;
 }
 img {
+  border-radius: 5px;
   display: block;
   margin: 0 auto;
 }
 h2 {
   font-weight: normal;
   text-align: center;
+}
+div {
+  margin: 0 auto;
+  max-width: 650px;
 }
 h3 {
   font-weight: normal;
