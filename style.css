@@ -2,6 +2,7 @@ body {
   font-family: "Shippori Mincho B1", serif;
   /* preferably  ParaType-Revival - 400, but you have to pay to download this*/
   font-size: smaller;
+  margin: 8px 200px;
 }
 h1 {
   font-weight: normal;
