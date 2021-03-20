@@ -8,8 +8,13 @@ body {
 }
 h1 {
   font-weight: normal;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
   text-align: center;
+}
+.nav-item {
+  background-color: rgb(213, 219, 219);
+  margin-bottom: 5px;
+  width: 100%;
 }
 .nav-link {
   color: black;
