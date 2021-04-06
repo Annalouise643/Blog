@@ -7,8 +7,9 @@ body {
   max-width: 650px;
 }
 h1 {
+  font-size: 32px;
   font-weight: normal;
-  letter-spacing: 4px;
+  letter-spacing: 5px;
   text-align: center;
 }
 .nav-item {
@@ -27,6 +28,7 @@ img {
   padding: 5px 0 10px;
 }
 h3 {
+  font-size: 22px;
   font-weight: normal;
 }
 div {
