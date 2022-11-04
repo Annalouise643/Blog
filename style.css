@@ -63,3 +63,8 @@ h4 {
 
   width: 400px; 
 }
+
+.border {
+  display:inline;
+  width: 50px
+}
