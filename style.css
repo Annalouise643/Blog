@@ -42,3 +42,10 @@ h3 {
   background-color: rgb(213, 219, 219);
   padding: 5px;
 }
+.forget-me-nots {
+  padding: 0;
+}
+.painting-heading {
+  text-align:center;
+  margin-bottom:15px;
+}
