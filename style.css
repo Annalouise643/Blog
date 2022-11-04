@@ -38,6 +38,12 @@ div {
 }
 h3 {
   font-weight: normal;
+  text-align: center;
+    margin-bottom: 15px;
+  }
+
+h4 {
+  font-size: 20px
 }
 .github-link {
   background-color: rgb(213, 219, 219);
@@ -52,14 +58,7 @@ h3 {
   margin-bottom:15px;
 }
 
-.art-h3 {
-  text-align: center;
-  margin-bottom: 15px;
-}
 
-h4 {
-  font-size: 20px
-}
 .delphinium {
 
   width: 400px; 
