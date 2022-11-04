@@ -45,7 +45,16 @@ h3 {
 .forget-me-nots {
   padding: 0;
 }
-.painting-heading {
+.art-headings {
   text-align:center;
   margin-bottom:15px;
+}
+
+.art-h3 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+h4 {
+  font-size: 20px
 }
