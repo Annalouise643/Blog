@@ -2,7 +2,10 @@ body {
   font-family: "Shippori Mincho B1", serif;
   /* preferably  ParaType-Revival - 400, but you have to pay to download this*/
   font-size: smaller;
+ 
+  
 }
+
 
 .container {
   max-width: 650px;
@@ -60,13 +63,25 @@ h4 {
 
 
 .delphinium {
-
   width: 400px; 
 }
-
+/* 
 .border-art {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/051/876/original/Scan_10.png?1667754760");
+      background-repeat: repeat-y; 
+      
   display:flex;
   justify-content: center;
-  width: 50px;
- 
+  width: 50px
 }
+*/
+
+.col-2.column.left-right {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/051/876/original/Scan_10.png?1667754760");
+    background-repeat: repeat-y;
+    background-size: 60px;
+    background-position: center;
+}
+ .border-screenshot {
+  width: 300px;
+ }
