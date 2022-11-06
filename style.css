@@ -64,7 +64,9 @@ h4 {
   width: 400px; 
 }
 
-.border {
-  display:inline;
-  width: 50px
+.border-art {
+  display:flex;
+  justify-content: center;
+  width: 50px;
+ 
 }
