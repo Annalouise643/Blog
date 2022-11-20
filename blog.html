@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="container blog">
       <h1>🌻 ANNA'S CODING BLOG 🌻</h1>
       <ul class="nav justify-content-center nav-justified">
         <li class="nav-item">
@@ -43,8 +43,16 @@
         width="360"
         alt="desk with laptop"
       />
-      <h3>This is where I will blog about coding as I learn 👩‍💻</h3>
-      <h4>First blog post! Adding a border down each side of my Art page</h4>
+
+      <h3 class="titles">
+        First blog post! Adding a border down each side of my Art page
+      </h3>
+      <img
+        class="border-screenshot"
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/051/890/original/Screenshot_2022-11-06_at_18.40.27.png?1667760140"
+        alt="screenshot of border"
+      />
+
       <p>
         I tried scanning in a vertical border I had painted and adding it to the
         Art page of my website but it did not work first time! I wrapped the
@@ -116,15 +124,50 @@
         and now the border is showing on both sides. I set the
         background-position to center and voila!
       </p>
-      <img
-        class="border-screenshot"
-        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/051/890/original/Screenshot_2022-11-06_at_18.40.27.png?1667760140"
-        alt="screenshot of border"
-      />
+
       <p>
         Next up... recap CSS and revise bootstrap grids. And learn how to make
         an image border without using a grid (CSS border images?).
       </p>
+      <p>19 November 2022</p>
+
+      <h3 class="titles">CSS Hack 'Clearfix'</h3>
+
+      <p>
+        When I made my first Weather App with SheCodes I remember spending ages
+        trying to get the temperature and the icon to align. I managed it in the
+        end, I can't really remember how but I think by using a span and
+        adjusting the size, margin and padding by eye.
+      </p>
+      <div class="row">
+        <div class="col-6">
+          <img
+            class="weather-icon"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/054/750/original/Screenshot_2022-11-20_at_13.06.30.png?1668949774"
+            alt="weather icon"
+          />
+        </div>
+        <div class="col 6">
+          <img
+            class="weather-icon"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/054/751/original/Screenshot_2022-11-20_at_13.07.45.png?1668949804"
+            alt="weather icon"
+          />
+        </div>
+      </div>
+      <p>
+        Now, as I'm working through the SheCodes React course, the instructor
+        has suggested fixing the alignment of the icon and the temperature by
+        floating the image to the left and using 'Clearfix'. I don't think we
+        have covered Clearfix in the course so I did a quick google and came
+        accross this
+        <a
+          href="https://css-tricks.com/clearfix-a-lesson-in-web-development-evolution/"
+          >article</a
+        >, which demostrates how, bit by bit, solutions and hacks are created as
+        people contribute to the discussion.
+      </p>
+      <p>20 November 2022</p>
       <p class="github-link">
         <a
           href="https://github.com/Annalouise643/Blog/tree/main"

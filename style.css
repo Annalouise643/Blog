@@ -85,3 +85,15 @@ h4 {
  .border-screenshot {
   width: 300px;
  }
+
+ .blog .titles {
+  text-decoration: underline;
+ }
+
+ .blog .weather-icon {
+display: inline-block;
+height: 100px;
+padding:20px
+
+
+ }
